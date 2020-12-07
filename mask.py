@@ -5,6 +5,9 @@ import numpy as np
 
 model =load_model('model.h5')
 
+# Download the trained model from this below link
+# https://drive.google.com/file/d/1JA1JNNaE-XKYOCz81VS0VWyyf-CDi-hU/view?usp=sharing
+
 img_width , img_height = 150,150
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
